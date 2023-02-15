@@ -1,0 +1,92 @@
+{
+  "bot": {
+    "token": "Token of the bot",
+    "id": "ID of the bot",
+    "URIMongoDb": "URI of the MongoDB database",
+    "defaultPrefix": "Default prefix of the bot (DEPRECIED: Discord uses slash commands now)"
+  },
+  "settingsDbl": {
+    "authorization_bot": "top.gg webhook authorization token",
+    "id": "ID of the Discord webhook (to show a message when someone voted for the bot)",
+    "token": "Token of the Discord webhook (to show a message when someone voted for the bot)",
+    "port": 9000
+  },
+  "settingsEmbed": {
+    "footer": "Made with ❤️ by Slybald#5279",
+    "image": "https://static.wikia.nocookie.net/naszemsp/images/7/77/StarszaWersjaLogo.png/revision/latest/scale-to-width-down/340?cb=20170725102835&path-prefix=pl",
+    "color": "#5A79A9"
+  },
+  "settingsEmojis": {
+    "actorid": "<:actorID:762263439677980682>",
+    "starcoins": "<:starcoins:762263820038045756>",
+    "diamonds": "<:diamonds:762264317588013126>",
+    "fame": "<:fame:689555910816956473>",
+    "friends": "<:friends:762264123563573288>",
+    "vip": "<:vip:689545416781463615>",
+    "clock": ":clock3:",
+    "moderator": "<:moderator:773621361125490710>",
+    "info": ":information_source:",
+    "number": ":1234:",
+    "server": ":map:",
+    "right": ":arrow_right:",
+    "hype": "<a:rainbow_hype:802908158200250368>",
+    "nose": ":nose:",
+    "mouth": ":lips:",
+    "eyes": ":eyes:",
+    "shadow": "<:eyeshadow:795362530938716161>",
+    "color": "<:color:764921812076855296>",
+    "profile": "<:profile:764937290912104500>",
+    "id": ":id:",
+    "sells": ":shopping_bags:",
+    "love": "<:love_it:802978589561323552>",
+    "gift": ":gift:",
+    "email": ":e_mail:",
+    "girl": ":girl:",
+    "boy": ":boy:",
+    "yes": "<:checked:765661976218697770>",
+    "no": "<:unchecked:765661976361304084>",
+    "warning": ":warning:",
+    "dk": ":flag_dk:",
+    "fi": ":flag_fi:",
+    "gb": ":flag_gb:",
+    "us": ":flag_us:",
+    "ca": ":flag_ca:",
+    "es": ":flag_es:",
+    "norway": ":flag_no:",
+    "de": ":flag_de:",
+    "pl": ":flag_pl:",
+    "tr": ":flag_tr:",
+    "ie": ":flag_ie:",
+    "se": ":flag_se:",
+    "nl": ":flag_nl:",
+    "fr": ":flag_fr:",
+    "au": ":flag_au:",
+    "nz": ":flag_nz:"
+  },
+  "mspLogin": {
+    "username": "Username of the MSP accounts (must be identical for all servers)",
+    "password": "Password of the MSP accounts (must be identical for all servers)"
+  },
+  "settingsLogs": {
+    "join": {
+      "id": "ID of Discord webhook (to show a message when someone invited the bot in a server)",
+      "token": "Token of Discord webhook (to show a message when someone invited the bot in a server)"
+    },
+    "leave": {
+      "id": "ID of Discord webhook (to show a message when someone kicked the bot in a server)",
+      "token": "Token of Discord webhook (to show a message when someone kicked the bot in a server)"
+    },
+    "shards": {
+      "id": "ID of Discord webhook (to show a message when the status of a shard is updated)",
+      "token": "Token of Discord webhook (to show a message when the status of a shard is updated)"
+    }
+  },
+  "settingsWebhook": {
+    "id": "ID of Discord webhook (to show a message when someone did a command)",
+    "token": "Token of Discord webhook (to show a message when someone did a command)"
+  },
+  "warningHistogram": {
+    "id": "ID of Discord webhook (to show a warning message when a histogram needs to be built)",
+    "token": "Token of Discord webhook (to show a warning message when a histogram needs to be built)"
+  }
+}

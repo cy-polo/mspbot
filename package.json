@@ -1,0 +1,27 @@
+{
+  "name": "mspbot",
+  "version": "5.0.0",
+  "description": "A Discord bot displaying the statistics of MovieStarPlanet users.",
+  "main": "msp.js",
+  "scripts": {
+    "start": "node msp.js"
+  },
+  "author": "Polo",
+  "license": "ISC",
+  "dependencies": {
+    "@jadbalout/nodeamf": "^1.1.8",
+    "discord.js": "^13.6.0",
+    "express": "^4.18.1",
+    "moment": "^2.29.3",
+    "node-fetch": "^2.6.7",
+    "mongoose": "^6.3.1",
+    "body-parser": "^1.20.0",
+    "cors": "^2.8.5",
+    "utf8": "^3.0.0",
+    "@discordjs/rest": "^0.4.1",
+    "discord-api-types": "^0.32.1"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  }
+}
